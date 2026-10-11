@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "beyond_the_veil",
+  "version": "${version}",
+  "name": "Beyond the Veil",
+  "description": "Terror psicológico, investigação e fenômenos sobrenaturais em Minecraft.",
+  "authors": ["Beyond the Veil contributors"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.beyondtheveil.BeyondTheVeil"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
